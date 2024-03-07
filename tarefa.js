@@ -10,6 +10,6 @@ form.addEventListener('submit', function(e) {
     if (campoB.value > campoA.value) {
         mensagem.innerHTML = "Uhuuul, o segundo campo é maior.";
     } else {
-        mensagem.innerHTML = "O segundo campo é menor, que pena!";
+        mensagem.innerHTML = "O segundo campo é menor ou igual, que pena!";
     }
 })
