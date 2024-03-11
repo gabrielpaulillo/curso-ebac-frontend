@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+header svg {
+    height: 2rem;
+    width: 2rem;
+    fill: tomato;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#tarefa input {
+    height: 1.5rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #EAEAEA;
+    padding: 1rem;
+}
+
+#tarefa button {
+    color: #fff;
+    background-color: tomato;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: none;
+    border-radius: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 25%;
+    width: 50%;
+    background-color: #EAEAEA;
+    border-radius: 4px;
+    list-style: none;
+}
+
+.delete {
+    text-decoration: none;
+}
+
+.concluido {
+    text-decoration: none;
+    color: #13bb21;
+}
